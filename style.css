@@ -1,0 +1,83 @@
+body{
+    background-color: lemonchiffon;
+}
+
+p{
+    color: blue;
+}
+h2{
+    color: blueviolet;
+}
+.shadow{
+    border-radius: 5%;
+
+}
+
+#video{
+    width: 320px;
+    height: 180px;
+    /* object-fit: initial; */
+    object-fit: cover;
+
+}
+
+
+
+
+
+@keyframes change-color {
+    0% {background-color: green; left: 20%; }
+    20% {background-color: blue; left: 30%; }
+    40% {background-color: brown; left: 40%; }
+    60% {background-color: indigo; left: 50%; }
+    80% {background-color:yellow; left: 60%; }
+    100% {background-color:violet; left: 70%; }
+}
+
+#box{
+    position: relative; left: 20%; top:10px;
+    /* position: relative; */
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+} 
+
+/* SEARCH BAR DESIGN */
+
+.fa-times {
+    color: white;
+    position: relative; left: 233px; bottom: 29px;
+    
+}
+.fa-search {
+    color: white;
+    position: relative; top: 7px; left: 6px;
+  
+}
+
+#big-div{
+    background-color: red;
+    width: 250px;
+    height: 30px;
+    border-radius: 0.4rem;
+    box-shadow: 5px 5px 3.5px red;
+    /* position: relative; top: 170px; left:100px; */
+
+    
+}
+
+#text{
+    position: relative; left:24px; bottom: 13px;
+    background-color: red;
+    width: 200px;
+    border: none;
+    outline: none;
+    color: white;
+
+}
+
+#text::placeholder{
+    color: wheat;
+    opacity: 0.7;
+}
